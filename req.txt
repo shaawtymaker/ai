@@ -1,0 +1,9 @@
+gensim
+downloader
+scikit-learn
+matplotlib
+transformers
+torch
+sentencepiece
+numpy
+scipy
