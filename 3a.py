@@ -17,6 +17,7 @@ min_count=1, workers=1)
 
 word = "hypertension"
 similar_words = model.wv.most_similar(word, topn=3)
+
 print(f"Words most similar to '{word}':")
 for sim_word, score in similar_words:
     print(f" - {sim_word}: {score:.4f}")
